@@ -1,4 +1,21 @@
-.jumbotron
+/* .mat-elevation-z8
 {
-    margin-top: 5%;
+    border:1px solid black;
+}
+th,td
+{
+    margin-left: 5%;
+} */
+
+.container
+{
+    margin-top:5%;
+    width: 100%;
+    height: 100%;
+    
+}
+.table-striped
+{
+ width: 100%;
+ table-layout: auto
 }

@@ -10,6 +10,9 @@ import { DashboardComponent } from './dashboard/dashboard.component';
 import { AddmoneyComponent } from './addmoney/addmoney.component';
 import { TransfersComponent } from './transfers/transfers.component';
 import { TransactionsComponent } from './transactions/transactions.component';
+import {MatButtonModule} from '@angular/material/button';
+import { RoughComponent } from './rough/rough.component';
+
 
 @NgModule({
   declarations: [
@@ -19,13 +22,15 @@ import { TransactionsComponent } from './transactions/transactions.component';
     DashboardComponent,
     AddmoneyComponent,
     TransfersComponent,
-    TransactionsComponent
+    TransactionsComponent,
+    RoughComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     MatTableModule,
-    MatCardModule
+    MatCardModule,
+    MatButtonModule
   ],
   providers: [],
   bootstrap: [AppComponent]
