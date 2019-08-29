@@ -2,8 +2,13 @@
 {
     margin-top: 10%;
 }
+.container
+{
+  max-width: 100%; height: -webkit-fill-available;
+}
 
 .jumbotron {
+  
     padding: 2rem 1rem;
     margin-bottom: 2rem;
     background-color: #ffffff;

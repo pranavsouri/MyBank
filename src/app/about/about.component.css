@@ -2,3 +2,8 @@
 {
     margin-top:5%;
 }
+.container2
+{
+    max-width: 100%; height: -webkit-fill-available;
+    width: 100%;
+}
