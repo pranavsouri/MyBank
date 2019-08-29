@@ -37,8 +37,9 @@ export const router: Routes = [
   {path:'about',component:AboutComponent},
   {path:'forgotpassword',component:ForgotpassComponent},
   {path:'main',component:MainComponent},
-  {path:'main/about',component:AboutoutComponent},
-  {path:'main/contact',component:ContactoutComponent}
+  {path:'main/about',component:AboutoutComponent,pathMatch:'full'},
+  {path:'main/contact',component:ContactoutComponent},
+  {path:'main/login',component:MainComponent}
 
 ];
 @NgModule({

@@ -59,6 +59,11 @@
 /*
  * Form styles
  */
+ .container
+ {
+     max-width: 100%;
+     height: -webkit-fill-available;
+ }
 .profile-name-card {
     margin-top: 10%;
     font-size: 16px;
