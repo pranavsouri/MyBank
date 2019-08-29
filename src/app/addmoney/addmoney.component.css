@@ -1,4 +1,18 @@
 .jumbotron
 {
-    margin-top: 5%;
+    margin-top: 10%;
 }
+
+.jumbotron {
+    margin-top: 10%;
+    padding: 2rem 1rem;
+    margin-bottom: 2rem;
+    background-color: #ffffff;
+    border-radius: 0.3rem;
+  }
+  
+  @media (min-width: 576px) {
+    .jumbotron {
+      padding: 4rem 2rem;
+    }
+  }

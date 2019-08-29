@@ -1,25 +1,52 @@
-<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
-    <!-- Brand/logo -->
-    <a class="navbar-brand" href="#">Logo</a>
-    
-    <!-- Links -->
+<link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<nav class="navbar navbar-expand-sm bg-success navbar-dark default color fixed-top" style="color: rgb(14, 13, 13)">
+  <ul class="navbar-nav">
+    <li class="nav-item active">
+      <a class="nav-link" [routerLink]="['home']" routerLinkActive="router-link-active">
+        <img width="30" height="30" style="padding: 0% ; margin: 0%;" alt="Logo" src="./assets/logo.png"> Leo Fincorp
+      </a>
+    </li>
+  </ul>
+  <div class="collapse navbar-collapse justify-content-end " id="navbarNav">
     <ul class="navbar-nav">
-      <li class="nav-item">
-        <a class="nav-link" routerLink = 'dashboard'>DASHBOARD</a>
+      <!-- <li>
+          <input type="text"  class ="transparent-input" style="padding: 0% ; margin: 0%;" placeholder="Search..">
+          <button type="submit"><i class="fa fa-search transparent-input2" ></i></button>
+        </li> -->
+      <li class="nav-item un">
+        <a class="nav-link" [routerLink]="['home']" routerLinkActive="router-link-active">Home</a>
       </li>
-      <li class="nav-item">
-          <a class="nav-link" routerLink = 'addmoney'>ADD MONEY</a>
+      <li class="nav-item un">
+        <a class="nav-link" [routerLink]="['dashboard']" routerLinkActive="router-link-active">Dashboard</a>
       </li>
-      <li class="nav-item">
-          <a class="nav-link" routerLink = 'transactions'>TRANSACTIONS</a>
+      <li class="nav-item un">
+        <a class="nav-link" [routerLink]="['addmoney']" routerLinkActive="router-link-active">Add Money</a>
       </li>
-      <!-- <ul class="navbar-nav justify-content-end">
-          <li class="nav-item">
-              <a class="nav-link" href="#">Link1</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Link2</a>
-            </li>
-          </ul> -->
+      <li class="nav-item un">
+        <div class="dropdown container">
+          <button class="btn btn-primary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false">
+            Transactions
+          </button>
+          <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+            <a class="dropdown-item" [routerLink]="['transactions']">Mini Statement</a>
+            <a class="dropdown-item" [routerLink]="['transfers']">Send Money</a>
+            <!-- <a class="dropdown-item" href="#">Something else here</a> -->
+          </div>
+        </div>
+      </li>
+
+
+      <li class="nav-item un">
+        <a class="nav-link" [routerLink]="['about']" routerLinkActive="router-link-active">About</a>
+      </li>
+      <li class="nav-item un">
+        <a class="nav-link" [routerLink]="['contact']" routerLinkActive="router-link-active">Contact</a>
+      </li>
+      <li class="nav-item un">
+        <a class="nav-link" [routerLink]="['login']" routerLinkActive="router-link-active">Logout</a>
+      </li>
     </ul>
-  </nav>
+  </div>
+</nav>

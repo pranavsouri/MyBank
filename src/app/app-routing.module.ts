@@ -3,6 +3,7 @@ import { RouterModule, Routes } from '@angular/router';
 import { DashboardComponent } from './dashboard/dashboard.component';
 import { AddmoneyComponent } from './addmoney/addmoney.component';
 import { TransactionsComponent } from './transactions/transactions.component';
+import { TransfersComponent } from './transfers/transfers.component';
 
 export const router: Routes = [
   {
@@ -16,6 +17,9 @@ export const router: Routes = [
   },
   {
     path:'transactions',component:TransactionsComponent
+  },
+  {
+    path:'transfers',component:TransfersComponent
   }
 ];
 @NgModule({

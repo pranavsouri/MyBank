@@ -1,10 +1,19 @@
-<h2> Transfers component</h2>
-<div class="jumbotron">
-    <div>
-        <input type="text" id="accno"  placeholder="Enter Account number">
+<div class="row">
+    <div class="col-sm-3"></div>
+    <div class="card text-center jumbotron col-sm-6 shadow p-3 mb-5 bg-white rounded" style="width: 18rem;">
+        <div class="card-body">
+            <h3>Add Amount</h3>
+            <br><br>
+            <div class="input-group input-group-lg">
+                <input type="text" id="accno" class="form-control" aria-label="Large" aria-describedby="inputGroup-sizing-sm" placeholder="Enter Receiver's Account number">
+            </div>
+            <br><br>
+            <div class="input-group input-group-lg">
+                <input type="text" id="amount" class="form-control" aria-label="Large" aria-describedby="inputGroup-sizing-sm" placeholder="Enter Receiver's Amount">
+            </div>
+            <br><br>
+            <button class="btn btn-primary"type="submit" value="transfer">Click to transfer</button>
+        </div>
     </div>
-    <div>
-        <input type="text" id="amount" placeholder="Enter Amount">
+    <div class="col-sm-3"></div>
     </div>
-    <button class="btn btn-primary"type="submit" value="transfer">Click to transfer</button>
-</div>
