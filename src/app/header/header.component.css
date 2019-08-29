@@ -1,0 +1,36 @@
+.bg-success {
+    background-color: #00bcd4!important;
+}
+#deta{
+    float:right;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: #000000 !important;
+    font-size: 130%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  
+}
+.navbar
+{
+  -webkit-box-shadow: 0 8px 6px -6px #999;
+  -moz-box-shadow: 0 8px 6px -6px #999;
+  box-shadow: 0 8px 6px -6px #999;
+}
+
+.navbar-dark .navbar-nav  .active{
+    color: #f7f5f5 !important;
+    font-size: 115%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.navbar-dark .navbar-nav .nav-link:focus, .navbar-dark .navbar-nav .nav-link:hover {
+    color: #163000;
+   
+}
+
+
+    .un:hover{
+        text-decoration: underline;
+      
+}
